@@ -153,20 +153,26 @@ export default function HomePage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-                  <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
-                    <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
-                      {data.android.map((item, index) => (
-                        <DownloadItem
-                          key={item.id}
-                          name={item.name}
-                          version={item.version}
-                          date={item.date}
-                          downloadUrl={item.downloadUrl}
-                          index={index}
-                        />
-                      ))}
+                  {data.android.length === 0 ? (
+                    <div className="py-10 text-center text-muted-foreground">
+                      No data available
                     </div>
-                  </ScrollArea>
+                  ) : (
+                    <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
+                      <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
+                        {data.android.map((item, index) => (
+                          <DownloadItem
+                            key={item.id}
+                            name={item.name}
+                            version={item.version}
+                            date={item.date}
+                            downloadUrl={item.downloadUrl}
+                            index={index}
+                          />
+                        ))}
+                      </div>
+                    </ScrollArea>
+                  )}
                 </CardContent>
               </Card>
             </TabsContent>
@@ -182,20 +188,26 @@ export default function HomePage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-                  <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
-                    <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
-                      {data.ios.map((item, index) => (
-                        <DownloadItem
-                          key={item.id}
-                          name={item.name}
-                          version={item.version}
-                          date={item.date}
-                          downloadUrl={item.downloadUrl}
-                          index={index}
-                        />
-                      ))}
+                  {data.ios.length === 0 ? (
+                    <div className="py-10 text-center text-muted-foreground">
+                      No data available
                     </div>
-                  </ScrollArea>
+                  ) : (
+                    <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
+                      <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
+                        {data.ios.map((item, index) => (
+                          <DownloadItem
+                            key={item.id}
+                            name={item.name}
+                            version={item.version}
+                            date={item.date}
+                            downloadUrl={item.downloadUrl}
+                            index={index}
+                          />
+                        ))}
+                      </div>
+                    </ScrollArea>
+                  )}
                 </CardContent>
               </Card>
             </TabsContent>
@@ -211,20 +223,26 @@ export default function HomePage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-                  <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
-                    <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
-                      {data.windows.map((item, index) => (
-                        <DownloadItem
-                          key={item.id}
-                          name={item.name}
-                          version={item.version}
-                          date={item.date}
-                          downloadUrl={item.downloadUrl}
-                          index={index}
-                        />
-                      ))}
+                  {data.windows.length === 0 ? (
+                    <div className="py-10 text-center text-muted-foreground">
+                      No data available
                     </div>
-                  </ScrollArea>
+                  ) : (
+                    <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
+                      <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
+                        {data.windows.map((item, index) => (
+                          <DownloadItem
+                            key={item.id}
+                            name={item.name}
+                            version={item.version}
+                            date={item.date}
+                            downloadUrl={item.downloadUrl}
+                            index={index}
+                          />
+                        ))}
+                      </div>
+                    </ScrollArea>
+                  )}
                 </CardContent>
               </Card>
             </TabsContent>
@@ -240,20 +258,26 @@ export default function HomePage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-                  <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
-                    <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
-                      {data.linux.map((item, index) => (
-                        <DownloadItem
-                          key={item.id}
-                          name={item.name}
-                          version={item.version}
-                          date={item.date}
-                          downloadUrl={item.downloadUrl}
-                          index={index}
-                        />
-                      ))}
+                  {data.linux.length === 0 ? (
+                    <div className="py-10 text-center text-muted-foreground">
+                      No data available
                     </div>
-                  </ScrollArea>
+                  ) : (
+                    <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
+                      <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
+                        {data.linux.map((item, index) => (
+                          <DownloadItem
+                            key={item.id}
+                            name={item.name}
+                            version={item.version}
+                            date={item.date}
+                            downloadUrl={item.downloadUrl}
+                            index={index}
+                          />
+                        ))}
+                      </div>
+                    </ScrollArea>
+                  )}
                 </CardContent>
               </Card>
             </TabsContent>
@@ -265,10 +289,11 @@ export default function HomePage() {
       <footer className="bg-muted border-t border-border mt-8 sm:mt-12 animate-fade-in stagger-2">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
           <p className="text-center text-xs sm:text-sm text-muted-foreground">
-            © 2024 Download Center. Tất cả quyền được bảo lưu.
+            © 2025 Download Center. Phát triển bởi Võ Gia Huy
           </p>
         </div>
       </footer>
+
     </div>
   )
 }
