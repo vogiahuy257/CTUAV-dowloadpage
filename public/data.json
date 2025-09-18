@@ -29,6 +29,13 @@
       "version": "1.0.0",
       "date": "2025-08-30",
       "downloadUrl": "https://drive.google.com/uc?export=download&id=130zZynHHriFtOV_uyAIf3m2ohYU-I2Jd"
+    },
+    {
+      "id": 2,
+      "name": "GroundControl",
+      "version": "1.0.1",
+      "date": "2025-09-18",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1AkEcGcEBQKparfIFUt435GnArGOWPoER"
     }
   ],
   "ios": [],
