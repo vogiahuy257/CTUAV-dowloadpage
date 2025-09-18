@@ -1,0 +1,178 @@
+{
+  "android": [
+    {
+      "id": 1,
+      "name": "WhatsApp",
+      "version": "2.24.1.78",
+      "date": "2024-01-15",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 2,
+      "name": "Instagram",
+      "version": "312.0.0.37.103",
+      "date": "2024-01-12",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 3,
+      "name": "TikTok",
+      "version": "32.8.4",
+      "date": "2024-01-10",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 4,
+      "name": "Telegram",
+      "version": "10.5.2",
+      "date": "2024-01-08",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 5,
+      "name": "YouTube",
+      "version": "18.48.39",
+      "date": "2024-01-05",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 6,
+      "name": "Spotify",
+      "version": "8.8.96.488",
+      "date": "2024-01-03",
+      "downloadUrl": "/data.json"
+    }
+  ],
+  "windows": [
+    {
+      "id": 1,
+      "name": "Adobe Photoshop CC 2024",
+      "version": "25.0.1",
+      "date": "2024-01-15",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 2,
+      "name": "Visual Studio Code",
+      "version": "1.85.2",
+      "date": "2024-01-10",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 3,
+      "name": "Google Chrome",
+      "version": "120.0.6099.109",
+      "date": "2024-01-08",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 4,
+      "name": "Microsoft Office 365",
+      "version": "16.0.17126.20132",
+      "date": "2024-01-05",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 5,
+      "name": "Figma Desktop",
+      "version": "116.16.4",
+      "date": "2024-01-03",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 6,
+      "name": "Discord",
+      "version": "1.0.9013",
+      "date": "2023-12-28",
+      "downloadUrl": "/data.json"
+    }
+  ],
+  "ios": [
+    {
+      "id": 1,
+      "name": "Instagram",
+      "version": "312.0",
+      "date": "2024-01-15",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 2,
+      "name": "WhatsApp Messenger",
+      "version": "24.1.78",
+      "date": "2024-01-12",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 3,
+      "name": "TikTok",
+      "version": "32.8.0",
+      "date": "2024-01-10",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 4,
+      "name": "YouTube",
+      "version": "18.48.3",
+      "date": "2024-01-08",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 5,
+      "name": "Spotify Music",
+      "version": "8.8.96",
+      "date": "2024-01-05",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 6,
+      "name": "Netflix",
+      "version": "15.47.1",
+      "date": "2024-01-03",
+      "downloadUrl": "/data.json"
+    }
+  ],
+  "linux": [
+    {
+      "id": 1,
+      "name": "Visual Studio Code",
+      "version": "1.85.2",
+      "date": "2024-01-15",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 2,
+      "name": "Firefox",
+      "version": "121.0.1",
+      "date": "2024-01-12",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 3,
+      "name": "GIMP",
+      "version": "2.10.36",
+      "date": "2024-01-10",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 4,
+      "name": "LibreOffice",
+      "version": "7.6.4",
+      "date": "2024-01-08",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 5,
+      "name": "VLC Media Player",
+      "version": "3.0.20",
+      "date": "2024-01-05",
+      "downloadUrl": "/data.json"
+    },
+    {
+      "id": 6,
+      "name": "Discord",
+      "version": "0.0.40",
+      "date": "2024-01-03",
+      "downloadUrl": "/data.json"
+    }
+  ]
+}
