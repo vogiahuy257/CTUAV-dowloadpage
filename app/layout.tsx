@@ -7,9 +7,9 @@ import "./globals.css"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "CTUAV GroundControl Download Page",
+  description: "Download the latest version of CTUAV GroundControl software for your operating system.",
+  generator: "Next.js",
 }
 
 export default function RootLayout({
