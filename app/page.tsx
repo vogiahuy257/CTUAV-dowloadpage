@@ -114,13 +114,13 @@ export default function HomePage() {
                 <span className="ml-1">({data.android.length})</span>
               </TabsTrigger>
               <TabsTrigger
-                value="ios"
+                value="parameter"
                 className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm py-2 sm:py-3 transition-all duration-200 hover:scale-105 data-[state=active]:animate-bounce-subtle cursor-pointer"
               >
                 <Apple className="h-3 w-3 sm:h-4 sm:w-4" />
-                <span className="hidden xs:inline">iOS</span>
-                <span className="xs:hidden">iOS</span>
-                <span className="ml-1">({data.ios.length})</span>
+                <span className="hidden xs:inline">parameter</span>
+                <span className="xs:hidden">parameter</span>
+                <span className="ml-1">({data.parameter.length})</span>
               </TabsTrigger>
               <TabsTrigger
                 value="windows"
@@ -141,6 +141,7 @@ export default function HomePage() {
                 <span className="ml-1">({data.linux.length})</span>
               </TabsTrigger>
             </TabsList>
+            
 
             <TabsContent value="android" className="animate-fade-in">
               <Card className="shadow-lg border-border hover:shadow-xl transition-shadow duration-300">
@@ -177,25 +178,25 @@ export default function HomePage() {
               </Card>
             </TabsContent>
 
-            <TabsContent value="ios" className="animate-fade-in">
+            <TabsContent value="parameter" className="animate-fade-in">
               <Card className="shadow-lg border-border hover:shadow-xl transition-shadow duration-300">
                 <CardHeader className="pb-3 sm:pb-6">
                   <CardTitle className="text-lg sm:text-xl text-center text-foreground flex items-center justify-center gap-2">
                     <Apple className="h-4 w-4 sm:h-5 sm:w-5" />
-                    <span className="hidden sm:inline">Ứng dụng iOS</span>
-                    <span className="sm:hidden">iOS Apps</span>
-                    <span>({data.ios.length})</span>
+                    <span className="hidden sm:inline">Parameter</span>
+                    <span className="sm:hidden">Parameter</span>
+                    <span>({data.parameter.length})</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-                  {data.ios.length === 0 ? (
+                  {data.parameter.length === 0 ? (
                     <div className="py-10 text-center text-muted-foreground">
                       No data available
                     </div>
                   ) : (
                     <ScrollArea className="h-[400px] sm:h-[500px] lg:h-[600px] px-3 sm:px-6">
                       <div className="space-y-3 sm:space-y-4 py-3 sm:py-4">
-                        {data.ios.map((item, index) => (
+                        {data.parameter.map((item, index) => (
                           <DownloadItem
                             key={item.id}
                             name={item.name}
