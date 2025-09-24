@@ -19,7 +19,14 @@
       "name": "GroundControl - Add download website",
       "version": "1.0.2",
       "date": "2025-09-18",
-      "downloadUrl": "https://drive.google.com/uc?export=download&id=10A8lQo6VKlWIg9xJNVan8YpFSQoYr2Dz"
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1m4YI7UAERXIJXAh2t_U4YM7rxlUNk9pk"
+    },
+    {
+      "id": 4,
+      "name": "GroundControl - AI tracking test",
+      "version": "1.0.3 - demo",
+      "date": "2025-09-24",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1AkEcGcEBQKparfIFUt435GnArGOWPoER"
     }
   ],
   "windows": [
